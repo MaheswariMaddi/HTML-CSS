@@ -1,0 +1,37 @@
+<html>
+<title>id conncept</title>
+
+<body>
+    <style>
+        #myid {
+            background-color: rgb(127, 255, 227);
+            color: blue;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .city {
+            background-color: tomato;
+            color: beige;
+            padding: 1px
+        }
+    </style>
+
+    <h1 id="myid">Difference betweeen id and class</h1>
+    <h2 class="city">MY Cities</h2>
+    <h2 class="city">London</h2>
+    <p>London is beautiful city</p>
+    <h2 class="city">Paris</h2>
+    <p>Paris is my favourite city</p>
+    <a href="pageNavigation.htm#c7">go to</a>
+</body>
+<h1>id by using javascript</h1>
+<h1 id="c">Hello world</h1>
+<button onclick="display()">click here</button>
+<script>
+    function display() {
+        document.getElementById("c").innerHTML = "have a nice day"
+    }
+</script>
+
+</html>
